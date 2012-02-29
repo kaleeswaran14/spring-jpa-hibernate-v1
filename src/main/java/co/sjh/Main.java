@@ -24,8 +24,14 @@ public class Main {
 
 		// get from db
 		System.out.println("Count of students: " + studentService.count());
+		
 		// save to db
-		studentService.save(student);
+		try {
+			studentService.save(student);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 		// get from db
 		System.out.println("Count of students: " + studentService.count());
 		
