@@ -22,6 +22,8 @@ public class StudentServiceImpl implements StudentService {
 	@Transactional
 	public void save(Student student) {
 		studentDao.save(student);
+		// To check transaction logic
+		//throw new RuntimeException();
 	}
 	
 	public List<Student> findAll() {
