@@ -1,4 +1,4 @@
-package co.sjh.domain;
+package co.javatoday.spring.jpa.hibernate.domain;
 
 
 import javax.persistence.Column;

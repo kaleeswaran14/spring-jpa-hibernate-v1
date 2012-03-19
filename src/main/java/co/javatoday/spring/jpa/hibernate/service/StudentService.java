@@ -1,8 +1,8 @@
-package co.sjh.service;
+package co.javatoday.spring.jpa.hibernate.service;
 
 import java.util.List;
 
-import co.sjh.domain.Student;
+import co.javatoday.spring.jpa.hibernate.domain.Student;
 
 public interface StudentService {
 

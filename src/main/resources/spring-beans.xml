@@ -18,8 +18,8 @@
 	<!-- Activates various annotations to be detected in bean classes -->
 	<context:annotation-config />
 	
-	<context:component-scan base-package="co.sjh.service" />
-	<context:component-scan base-package="co.sjh.dao" />
+	<context:component-scan base-package="co.javatoday.spring.jpa.hibernate.service" />
+	<context:component-scan base-package="co.javatoday.spring.jpa.hibernate.dao" />
 
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean">
@@ -30,7 +30,7 @@
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
 	</bean>
 	
-	<bean id="studentDao" class="co.sjh.dao.StudentDaoImpl">
+	<bean id="studentDao" class="co.javatoday.spring.jpa.hibernate.dao.StudentDaoImpl">
         <property name="jpaTemplate" ref="jpaTemplate" />
     </bean>
 

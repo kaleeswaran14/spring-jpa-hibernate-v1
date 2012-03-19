@@ -1,9 +1,9 @@
-package co.sjh;
+package co.javatoday.spring.jpa.hibernate;
 
 import java.util.List;
 
-import co.sjh.domain.Student;
-import co.sjh.service.StudentService;
+import co.javatoday.spring.jpa.hibernate.domain.Student;
+import co.javatoday.spring.jpa.hibernate.service.StudentService;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

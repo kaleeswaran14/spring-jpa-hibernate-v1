@@ -1,8 +1,8 @@
-package co.sjh.dao;
+package co.javatoday.spring.jpa.hibernate.dao;
 
 import java.util.List;
 
-import co.sjh.domain.Student;
+import co.javatoday.spring.jpa.hibernate.domain.Student;
 
 import org.springframework.orm.jpa.support.JpaDaoSupport;
 

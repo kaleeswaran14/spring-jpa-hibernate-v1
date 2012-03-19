@@ -1,4 +1,4 @@
-package co.sjh.service;
+package co.javatoday.spring.jpa.hibernate.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import co.sjh.dao.StudentDao;
-import co.sjh.domain.Student;
+import co.javatoday.spring.jpa.hibernate.dao.StudentDao;
+import co.javatoday.spring.jpa.hibernate.domain.Student;
 
 @Service("studentService")
 public class StudentServiceImpl implements StudentService {
